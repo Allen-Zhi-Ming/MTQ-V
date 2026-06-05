@@ -2,7 +2,7 @@
 
 ## Maintenance goal
 
-Keep MTQ-V useful as a public documentation and governance repository.
+Keep MTQ-V useful as a public documentation and governance repository with clear, reviewable maintenance guidance.
 
 ## Near-term work
 
@@ -29,4 +29,4 @@ Before each update, check:
 
 ## Codex use cases
 
-Codex can help review docs, suggest clearer examples, and check consistency across files.
+Codex can help review docs, suggest clearer examples, and check consistency across public-facing files.
