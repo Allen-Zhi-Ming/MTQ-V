@@ -2,9 +2,9 @@
 
 ## Public scope
 
-MTQ-V is a public documentation repository for project governance, release readiness, and safe AI-assisted workflow notes.
+MTQ-V is a public documentation repository for project governance, release readiness, and safe AI-assisted workflow guidance.
 
-The current repository is intentionally documentation-first.
+The repository is intentionally documentation-first today.
 
 ## Included now
 
@@ -28,4 +28,4 @@ The current repository is intentionally documentation-first.
 
 Future updates may add small examples that use mock data only.
 
-Any future code example should be reviewed before publishing.
+Any future code example should stay easy to review and should be checked before publishing.
