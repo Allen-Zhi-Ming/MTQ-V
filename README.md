@@ -1,20 +1,20 @@
 # MTQ-V
 
-MTQ-V is a public documentation and governance repository for safe AI-assisted project maintenance.
+MTQ-V is a public documentation and governance repository focused on safe AI-assisted project maintenance and reviewable contributor guidance.
 
-It is intentionally separated from private production repositories. It does not include production secrets, private user data, commercial logic, payment logic, internal prompts, or private repository history.
+It stays intentionally separate from private production repositories. This repo is meant to show the public-facing process, scope, and maintenance posture without exposing private systems or business-specific implementation details.
 
 ## Purpose
 
 - Provide a clean public surface for open-source review.
-- Document safe collaboration rules for AI coding agents.
-- Demonstrate non-destructive documentation maintenance.
+- Explain safe collaboration rules for AI coding agents.
+- Demonstrate careful, non-destructive documentation maintenance.
 - Track release-readiness and project governance practices.
 - Support future Codex for Open Source application materials.
 
 ## Current status
 
-This is a documentation-first public foundation. Production code has not been imported.
+This repository is documentation-first today. It does not include imported production code, and its current purpose is to make the project's scope and maintenance approach easy for new visitors to understand.
 
 ## Repository map
 
