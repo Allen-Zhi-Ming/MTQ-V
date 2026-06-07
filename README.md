@@ -1,8 +1,8 @@
 # MTQ-V
 
-MTQ-V is a public documentation and governance repository for safe AI-assisted project maintenance.
+MTQ-V is a public documentation and governance repo for safe AI-assisted project maintenance.
 
-It is intentionally separated from private production repositories. It does not include production secrets, private user data, commercial logic, payment logic, internal prompts, or private repository history.
+It is intentionally separated from private production repositories. It contains only public docs, no secrets, and no production business logic.
 
 ## Purpose
 
