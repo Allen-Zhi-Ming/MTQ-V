@@ -1,0 +1,22 @@
+{
+  "releaseId": "release-checklist-mock-001",
+  "status": "draft",
+  "dataPolicy": "mock-only",
+  "checks": [
+    {
+      "id": "docs-ready",
+      "label": "Documentation is updated",
+      "required": true
+    },
+    {
+      "id": "security-policy-ready",
+      "label": "Security policy is present",
+      "required": true
+    },
+    {
+      "id": "mock-data-only",
+      "label": "Examples use mock data only",
+      "required": true
+    }
+  ]
+}
