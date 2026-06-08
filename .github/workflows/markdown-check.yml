@@ -4,9 +4,11 @@ on:
   pull_request:
     paths:
       - "**/*.md"
+      - "examples/release-checklist-mock/**"
   push:
     paths:
       - "**/*.md"
+      - "examples/release-checklist-mock/**"
 
 jobs:
   markdown-check:
@@ -19,9 +21,16 @@ jobs:
         run: |
           find . -name "*.md" -type f | sort
 
-      - name: Basic markdown sanity check
+      - name: Basic file check
         run: |
           test -f README.md
           test -f LICENSE
           test -f SECURITY.md
           test -f CONTRIBUTING.md
+          test -f examples/release-checklist-mock/README.md
+          test -f examples/release-checklist-mock/release-checklist.json
+          test -f examples/release-checklist-mock/validate-mock.mjs
+
+      - name: Validate release checklist mock
+        run: |
+          node examples/release-checklist-mock/validate-mock.mjs
