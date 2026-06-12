@@ -2,6 +2,9 @@ import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+// Mark as reviewed: 2026-06-12
+/* <!-- reviewed: 2026-06-12 --> */
+
 const dir = dirname(fileURLToPath(import.meta.url));
 const checklist = JSON.parse(readFileSync(join(dir, 'release-checklist.json'), 'utf8'));
 
