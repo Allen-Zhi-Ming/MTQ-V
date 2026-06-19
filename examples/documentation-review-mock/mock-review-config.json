@@ -1,0 +1,17 @@
+{
+  "projectId": "doc-review-mock-002",
+  "reviewDate": "2026-06-12",
+  "dataPolicy": "mock-only",
+  "filesToReview": [
+    {
+      "filePath": "docs/architecture.md",
+      "requiredSections": ["Architecture Notes", "System Components", "Key Design Decisions"],
+      "status": "pending"
+    },
+    {
+      "filePath": "docs/scope.md",
+      "requiredSections": ["Project Scope", "Public scope", "Included now"],
+      "status": "pending"
+    }
+  ]
+}

@@ -27,10 +27,18 @@ jobs:
           test -f LICENSE
           test -f SECURITY.md
           test -f CONTRIBUTING.md
+          test -f CHANGELOG.md
           test -f examples/release-checklist-mock/README.md
           test -f examples/release-checklist-mock/release-checklist.json
           test -f examples/release-checklist-mock/validate-mock.mjs
+          test -f examples/documentation-review-mock/README.md
+          test -f examples/documentation-review-mock/mock-review-config.json
+          test -f examples/documentation-review-mock/validate-docs.mjs
 
       - name: Validate release checklist mock
         run: |
           node examples/release-checklist-mock/validate-mock.mjs
+
+      - name: Validate documentation review mock
+        run: |
+          node examples/documentation-review-mock/validate-docs.mjs

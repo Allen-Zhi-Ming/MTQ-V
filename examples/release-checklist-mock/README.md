@@ -1,12 +1,14 @@
-# Release Checklist Mock
+# Release-readiness Checklist Mock
 
-This example shows a public-safe release readiness checklist for MTQ-V.
+<!-- reviewed: 2026-06-12 -->
+
+This example shows a public-safe release-readiness checklist for MTQ-V.
 
 It does not import private project code. It uses small placeholder data only.
 
 ## Purpose
 
-- Show how release readiness can be checked with generic project metadata.
+- Show how release-readiness can be checked with generic project metadata.
 - Keep release review steps small and verifiable.
 - Keep example data generic and removable.
 
